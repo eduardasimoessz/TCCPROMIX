@@ -6,3 +6,5 @@ Estudo do Git - Santnder coders 2023
 * uso do comando restore
 
 * uso do comando push
+
+*comando git pull 
