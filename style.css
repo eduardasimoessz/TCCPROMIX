@@ -1,0 +1,131 @@
+:root {
+  --clr-primary: #eb5e28 ;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--clr-gray);
+  margin: 0.8rem;
+}
+
+nav {
+  width: 100%;
+  height: 150px;
+  background: #eb5e28;
+}
+header {
+  width: 100%;
+  height: 50px;
+  color: #eee;
+  background: black;
+  text-align: center;
+}
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  justify-content: center;
+}
+
+.container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
+}
+
+.banner-img {
+  position: absolute;
+  background-image: url(https://passeiosaocarlos.com.br/wp-content/uploads/2016/10/Logo_Savegnago_02_RGB_PNG.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-img2 {
+  position: absolute;
+  background-image: url(https://www.abrigosaojose.com.br/wp-content/uploads/2017/11/Iquegami-Curvas-1024x613.png);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-img3 {
+  position: absolute;
+  background-image: url(https://www.toptotal.com.br/media/com_jbusinessdirectory/pictures/companies/165/logotiposupermercadodia-1491043395.png);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.profile-img {
+  width: 8rem;
+  clip-path: circle(60px at center);
+  margin-top: 4.5rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.description {
+  margin: 1rem 2rem;
+  font-size: 0.9rem;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+  background-color: var(--clr-primary);
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #eb5e28;
+  color: white;
+  text-align: center;
+}
+
+#divBusca{
+  background-color:#fffcf2;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+  float: right;
+}
+
+#txtBusca{
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+
+
